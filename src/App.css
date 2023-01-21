@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+h1 {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 0.25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  margin: 0;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4 {
+  margin: 0;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin: 0;
+}
+
+.parent {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'neue-haas-grotesk-text', Helvetica, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.centerParent {
+  width: 650px;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topDivider {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.pageTitle {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 0.25px;
+
+  margin: 10px;
+}
+
+.pageSubtitle {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a.nostyle:hover {
+  text-decoration: underline;
+}
+
+a.underline:link {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a.underline:visited {
+  text-decoration: underline;
+  color: inherit;
+  cursor: auto;
+}
+
+a.underline:hover {
+  text-decoration: underline;
+}
+
+.secondDiv {
+  margin: 10px;
+}
+
