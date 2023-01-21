@@ -18,12 +18,12 @@ function Header(props) {
                 <div>
                     <a class={pageState === 'portfolio' ? 'underline' : 'nostyle'} href="/">portfolio</a> 
                 </div>
-                <div>
+                {/* <div>
                     <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href="/cv">cv</a>
                 </div>
                 <div>
                     <a class={pageState === 'about' ? 'underline' : 'nostyle'} href="/">about</a>
-                </div>
+                </div> */}
             </div>
         </>
     );
