@@ -13,8 +13,8 @@ function Header(props) {
                 <div class="pageSubtitle">
                     <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">linkedin</a>
                 </div>
-                </div>
-                <div class="menubar">
+            </div>
+            <div class="menubar">
                 <div>
                     <a class={pageState === 'portfolio' ? 'underline' : 'nostyle'} href="/">portfolio</a> 
                 </div>

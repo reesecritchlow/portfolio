@@ -41,7 +41,7 @@ h2 {
 }
 
 .centerParent {
-  width: 650px;
+  max-width: 1000px;
   height: 100%;
 }
 
@@ -76,6 +76,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   font-size: x-large;
+  padding-bottom: 30px;
 }
 
 a.nostyle:link {
@@ -108,7 +109,14 @@ a.underline:hover {
   text-decoration: underline;
 }
 
-.secondDiv {
+.imageHalf {
   margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+img.portfolio {
+  height: 400px;
+  margin: 10px;
+}
