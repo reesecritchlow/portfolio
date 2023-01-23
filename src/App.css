@@ -49,6 +49,7 @@ h2 {
   overflow-x: auto;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  overflow-y: hidden;
 }
 
 .centerParent::-webkit-scrollbar {
@@ -56,6 +57,7 @@ h2 {
   height: 100%;
   overflow-x: auto;
   display: none;
+  overflow-y: hidden;
 }
 
 .topDivider {
@@ -140,8 +142,6 @@ a.underline:hover {
 img.portfolio {
   max-height: 400px;
   max-width: 400px;
-  width: auto;
-  height: auto;
   margin: 10px;
 }
 

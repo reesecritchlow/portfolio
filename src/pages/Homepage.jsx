@@ -11,7 +11,7 @@ import GithubButton from '../components/GithubButton';
 
 import { useMediaQuery } from 'react-responsive';
 
-    
+import Fade from 'react-reveal/Fade';    
 
 function Homepage() {
 
