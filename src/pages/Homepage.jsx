@@ -2,7 +2,7 @@ import '../App.css';
 import Header from '../components/Header.jsx';
 import image353 from '../media/353robot.png';
 
-import video253 from '../media/robot-video.mp4';
+import video253 from '../media/robot-video_1.mp4';
 import circuit253 from '../media/353circ.jpg';
 import trackFilter from '../media/track-filter.png';
 
