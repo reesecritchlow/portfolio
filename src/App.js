@@ -6,15 +6,20 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import CV from './pages/CV';
+import About from './pages/About';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <Homepage />,
   },
   {
     path: "/cv",
     element: <CV />
+  },
+  {
+    path: "/",
+    element: <About />
   }
 ]);
 

@@ -1,0 +1,26 @@
+.exterior {
+    border: 2px black solid;
+    border-radius: 3px;
+    padding: 5px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+img.icon {
+    height: 3ch;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+h4.name {
+    margin: 0;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 5px;
+}

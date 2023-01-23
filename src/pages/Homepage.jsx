@@ -17,31 +17,33 @@ function Homepage() {
                         <div>
                             <div class="imagetext">
                             <h2>Artificial Intelligence Robot Software</h2>
-                            <h3>Fall 2022</h3>
+                            <h4>Fall 2022</h4>
                             <hr />
                                 <p>
                                     <b>Key Technologies:</b> Python, Robot Operating System, TensorFlow Keras, OpenCV, Linux
                                     <br />
                                     <br />
                                     <b>Key Achievements:</b> Constructed software for a simulated robot in a ROS Gazebo simulation
-                                    to autonomously drive and collect data
+                                    to autonomously drive and collect data using techniques in machine learning and computer vision.
                                 </p>
                             </div>
                         </div>
                         <div class="imageStack">
                             <img src={image353} class='portfolio' alt='robot in a ROS gazebo simulation' />
+                            Bird's Eye View of the Simulated Gazebo Environment
                             <img src={trackFilter} class='portfolio' alt='binarized view of a road simulation' />
+                            Binarized Video Feed from the Robot for Neural Network Processing
                         </div>
                     </div>
-
+                    <hr class="divider" />
                     <div class="imageHalf">
                         <div>
                             <div class="imagetext">
                             <h2>Autonomous Treasure Collecting Robot</h2>
-                            <h3>Summer 2022</h3>
+                            <h4>Summer 2022</h4>
                             <hr />
                                 <p>
-                                    <b>Key Technologies:</b> Arduino, C++, PlatformIO, Circuit Design and Analysis, Signal Processing, Soldering
+                                    <b>Key Technologies:</b> Arduino, C++, PlatformIO, Circuit Design and Analysis, Signal Processing, Soldering, MATLAB, Simulink
                                     <br />
                                     <br />
                                     <b>Key Achievements:</b> Designed, prototyped, and assembled a fully autonomous treasure collecting robot from 
@@ -54,14 +56,17 @@ function Homepage() {
                                 <source src={video253} type="video/mp4" />
                                 Videos not supported.
                             </video>
+                            Video of the robot executing tasks on the competition surface.
                             <img class="portfolio" src={circuit253} alt="circuits"/>
+                            Finished infrared signal processing filter.
                         </div>
                     </div>
+                    <hr class="divider" />
                     <div class="imageHalf">
                         <div>
                             <div class="imagetext">
                             <h2>Internal Product Management Tool</h2>
-                            <h3>Spring 2023</h3>
+                            <h4>Spring 2022</h4>
                             <hr />
                                 <p>
                                     <b>Key Technologies:</b> Javascript, React.js, HTML, CSS, Express.js, Node.js
