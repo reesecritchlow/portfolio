@@ -46,9 +46,10 @@ h2 {
   margin-right: 30px;
   max-width: 900px;
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: auto;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  overflow-y: hidden;
 }
 
 .centerParent::-webkit-scrollbar {
@@ -56,6 +57,7 @@ h2 {
   height: 100%;
   overflow-x: auto;
   display: none;
+  overflow-y: hidden;
 }
 
 .topDivider {
