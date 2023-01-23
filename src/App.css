@@ -148,7 +148,7 @@ img.portfolio {
 
 @media (min-width: 400px) {
   img.portfolio {
-    max-width: 80vh;
+    max-width: 80vw;
   }
 }
 
