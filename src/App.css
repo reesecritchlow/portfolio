@@ -91,6 +91,7 @@ h2 {
   align-items: center;
   font-size: x-large;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 a.nostyle:link {
@@ -143,6 +144,12 @@ img.portfolio {
   width: auto;
   height: auto;
   margin: 10px;
+}
+
+@media (min-width: 400px) {
+  img.portfolio {
+    max-width: 80vh;
+  }
 }
 
 video.portfolio {
