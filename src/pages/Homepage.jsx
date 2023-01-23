@@ -7,6 +7,7 @@ import circuit253 from '../media/353circ.jpg';
 import trackFilter from '../media/track-filter.png';
 
 import pa from '../media/brave-pa.png';
+import GithubButton from '../components/GithubButton';
 
 function Homepage() {
     return (
@@ -81,6 +82,7 @@ function Homepage() {
                                         </ul>
                                     </ul>
                                 </p>
+                                <GithubButton repoLink='https://github.com/reesecritchlow/robot-summer' />
                             </div>
                         </div>
                         <div class="imageStack">
