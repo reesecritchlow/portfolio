@@ -184,6 +184,12 @@ img.resume {
   border: 5px solid #555;
 }
 
+@media (min-width: 400px) {
+  img.resume {
+    max-width: 80vw;
+  }
+}
+
 .download {
   font-size: 20px;
   display: flex;
