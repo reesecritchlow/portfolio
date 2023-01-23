@@ -158,6 +158,12 @@ video.portfolio {
   margin: 10px;
 }
 
+@media (min-width: 400px) {
+  video.portfolio {
+    max-width: 80vw;
+  }
+}
+
 .imageStack {
   display: flex;
   flex-direction: column;
