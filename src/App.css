@@ -42,6 +42,8 @@ h2 {
 }
 
 .centerParent {
+  margin-left: 30px;
+  margin-right: 30px;
   max-width: 900px;
   height: 100%;
   overflow-x: auto;
@@ -125,6 +127,13 @@ a.underline:hover {
   margin: 10px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.imageHalfMobile{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 

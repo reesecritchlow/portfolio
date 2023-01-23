@@ -9,12 +9,19 @@ import trackFilter from '../media/track-filter.png';
 import pa from '../media/brave-pa.png';
 import GithubButton from '../components/GithubButton';
 
+import { useMediaQuery } from 'react-responsive';
+
+    
+
 function Homepage() {
+
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+
     return (
         <div class="parent">
             <div class="centerParent">
                 <Header pageState={'portfolio'} />
-                    <div class="imageHalf">
+                    <div class={isTabletOrMobile ? 'imageHalfMobile' : 'imageHalf'}>
                         <div>
                             <div class="imagetext">
                             <h2>Artificial Intelligence Robot Software</h2>
@@ -55,7 +62,7 @@ function Homepage() {
                         </div>
                     </div>
                     <hr class="divider" />
-                    <div class="imageHalf">
+                    <div class={isTabletOrMobile ? 'imageHalfMobile' : 'imageHalf'}>
                         <div>
                             <div class="imagetext">
                             <h2>Autonomous Treasure Collecting Robot</h2>
@@ -96,7 +103,7 @@ function Homepage() {
                         </div>
                     </div>
                     <hr class="divider" />
-                    <div class="imageHalf">
+                    <div class={isTabletOrMobile ? 'imageHalfMobile' : 'imageHalf'}>
                         <div>
                             <div class="imagetext">
                             <h2>Internal Product Management Tool</h2>
