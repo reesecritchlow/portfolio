@@ -20,6 +20,8 @@ import simulinkLogo from '../media/simulinkLogo.png';
 import sqlLogo from '../media/sqlLogo.png';
 import onshapeLogo from '../media/onshapeLogo.png';
 import rosLogo from '../media/rosLogo.png';
+import nodeLogo from '../media/nodeLogoEdited.svg';
+
 
 function About() {
     return (
@@ -64,6 +66,7 @@ function About() {
                                 <SkillBadge name={'OpenCV'} logo={opencvLogo} />
                                 <SkillBadge name={'Linux/Unix'} logo={linuxLogo} />
                                 <SkillBadge name={'Git/GitHub'} logo={gitLogo} />
+                                <SkillBadge name={'Node.js'} logo={nodeLogo} />
                             </div>
                             <h4>Electronics and Hardware:</h4>
                             <div class="skillContainer">
