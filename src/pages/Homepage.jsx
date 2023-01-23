@@ -25,6 +25,24 @@ function Homepage() {
                                     <br />
                                     <b>Key Achievements:</b> Constructed software for a simulated robot in a ROS Gazebo simulation
                                     to autonomously drive and collect data using techniques in machine learning and computer vision.
+                                    <br />
+                                    <br />
+                                    <ul>
+                                        <li>Used Robot Operating System (ROS) to interop with a simulated robot in a Gazebo simulation.</li>
+                                        <li>
+                                            Created a neural network using TensorFlow in Google Colab to characterize images taken by the robot&apos;s
+                                            camera into various driving actions to feedback into the robot's drivetrain.
+                                        </li>
+                                        <li>
+                                            Worked with a partner to develop another neural network to identify characters on simulated license plates and 
+                                            used multithreaded code to process the data in order to preserve the responsiveness of other tasks.
+                                        </li>
+                                        <li>
+                                            Used OpenCV and techniques in computer vision to identify key features and reduce the dimensionality of spaces
+                                            in order to navigate the course and collect data.
+                                        </li>
+                                        <li>Worked exclusively in a purpose-built Linux environment for greater control over code and software.</li>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
@@ -47,7 +65,21 @@ function Homepage() {
                                     <br />
                                     <br />
                                     <b>Key Achievements:</b> Designed, prototyped, and assembled a fully autonomous treasure collecting robot from 
-                                    the ground up, which placed 4th out of 16 teams during the UBC Engineering Physics robot summer competition.
+                                    the ground up in a group of 4, which placed 4th out of 16 teams during the UBC Engineering Physics robot summer competition.
+                                    <br />
+                                    <br />
+                                    <ul>
+                                        <li>Designed and fabricated a custom circuit to filter and distinguish a 1kHz infrared signal from a 10kHz infrared signal.</li>
+                                        <ul>
+                                            <li>Experimented with methods in digital signal processing such as cross-correlation.</li>
+                                            <li>Used MATLAB and Simulink to prototype various circuits and observe their behaviours to preserve fabrication time.</li>
+                                        </ul>
+                                        <li>Constructed an extensive state machine in C++ to control the robot.</li>
+                                        <ul>
+                                            <li>Created drivers for every component on the robot to interact with the state machine. </li>
+                                            <li>Used PID control to provide output signals to the external environment based on reflectance, infrared, and rotary encoder signals on board the robot.</li>
+                                        </ul>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
@@ -79,15 +111,33 @@ function Homepage() {
                                     of products.
                                     <br />
                                     <br />
-
+                                    <ul>
+                                        <li>Constructed a comprehensive user interface using React and Bootstrap.</li>
+                                        <li>Implemented an OAuth2 authentication pathway to access the company&apos;s ClickUp information within the app.</li>
+                                        <li>Utilized several APIs to integrate and harmonize several of the company&apos;s softwares, such as:</li>
+                                        <ul>
+                                            <li>Particle API to monitor the statuses of IoT products in both provisioning and production.</li>
+                                            <li>ClickUp API to view and modify tasks and tickets in one place.</li>
+                                            <li>Amazon Web Services API to register LoRA WAN devices to AWS&apos;s IoT network.</li>
+                                            <li>Twilio API to purchase phone numbers and associate them to devices.</li>
+                                        </ul>
+                                        <li>Developed endpoints using Express.js to perform tasks that transcended the scope of a web app.</li>
+                                        <li>
+                                            Interacted with the company&apos;s database using the PostgreSQL package for Node.js in order to add
+                                            provisioned products to the database.
+                                        </li>
+                                        <li>Documented code and implemented a roadmap for future developers to continue the project after my time at the company.</li>
+                                    </ul>
                                 </p>
+                                <br />
+                                <br />
+                                <br />
                             </div>
                         </div>
                         <div class="imageStack">
                             <img class="portfolio" src={pa} alt="a website"/>
                         </div>
                     </div>
-
             </div>
         </div>
     );

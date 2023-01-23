@@ -1,20 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.7202edc6.css",
-    "main.js": "/static/js/main.f71f32d6.js",
+    "main.css": "/static/css/main.0f9c1d39.css",
+    "main.js": "/static/js/main.49a0fa76.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/robot-video.mp4": "/static/media/robot-video.92a09992af8005794ee7.mp4",
     "static/media/353circ.jpg": "/static/media/353circ.f068767e4cbdd18698fd.jpg",
     "static/media/353robot.png": "/static/media/353robot.3a313036eba1218524cc.png",
+    "static/media/resume-2023-nc.jpg": "/static/media/resume-2023-nc.e08e392000fde4f3385e.jpg",
+    "static/media/resume-2023-nc2.jpg": "/static/media/resume-2023-nc2.eda5a264dd8c5af4720d.jpg",
+    "static/media/linuxLogo.png": "/static/media/linuxLogo.9183a73b387aa8454b1e.png",
+    "static/media/reactLogo.png": "/static/media/reactLogo.81ed438b18e24116794d.png",
+    "static/media/python.png": "/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/arduinoLogo.png": "/static/media/arduinoLogo.51319eb1c9d57bd3dd28.png",
+    "static/media/javalogo.png": "/static/media/javalogo.f2d896e87b3a75f05aae.png",
+    "static/media/cppLogo.png": "/static/media/cppLogo.64f637357bce0ccc8384.png",
+    "static/media/simulinkLogo.png": "/static/media/simulinkLogo.99b129d7e5ea2f280a5b.png",
+    "static/media/cssLogo.png": "/static/media/cssLogo.91c9cb105e2dc672944c.png",
+    "static/media/matlabLogo.png": "/static/media/matlabLogo.2b608e94f8e1c2c9cd8e.png",
     "static/media/brave-pa.png": "/static/media/brave-pa.f085a5c051482b607525.png",
+    "static/media/tensorflowLogo.png": "/static/media/tensorflowLogo.42ff285e754b23972de0.png",
+    "static/media/circuitLogo.png": "/static/media/circuitLogo.1f0fee33d2b6f4a5e5c3.png",
+    "static/media/resume-2023-no-contact.pdf": "/static/media/resume-2023-no-contact.4726b10825443696f558.pdf",
+    "static/media/rosLogo.png": "/static/media/rosLogo.560364f02385fc2419da.png",
     "static/media/track-filter.png": "/static/media/track-filter.7492b4be4110fe480d56.png",
+    "static/media/onshapeLogo.png": "/static/media/onshapeLogo.210e74491919d6a331d4.png",
+    "static/media/jslogo.png": "/static/media/jslogo.266bd9fb2663dcc057b4.png",
+    "static/media/opencvLogo.webp": "/static/media/opencvLogo.c363e0b142e46e16eea0.webp",
     "index.html": "/index.html",
-    "main.7202edc6.css.map": "/static/css/main.7202edc6.css.map",
-    "main.f71f32d6.js.map": "/static/js/main.f71f32d6.js.map",
+    "static/media/htmlLogo.svg": "/static/media/htmlLogo.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.0f9c1d39.css.map": "/static/css/main.0f9c1d39.css.map",
+    "main.49a0fa76.js.map": "/static/js/main.49a0fa76.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7202edc6.css",
-    "static/js/main.f71f32d6.js"
+    "static/css/main.0f9c1d39.css",
+    "static/js/main.49a0fa76.js"
   ]
 }

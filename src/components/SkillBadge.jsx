@@ -2,18 +2,18 @@ import './SkillBadge.css';
 import PropTypes from 'prop-types';
 
 function SkillBadge(props) {
-    const { name, logo, experiences } = props;
+    const { name, logo, experiences, dark } = props;
     return (
         <div class="exterior">
-            <img class="icon" src={logo} alt="logo" />
-            <div class="textblock">
+            <div class="logoRow">
+                <img class={dark ? 'darkIcon' : 'icon'} src={logo} alt="logo" />
                 <h4 class="name">{name}</h4>
-                {/* <ul>
+            </div>
+            <ul>
                     {experiences.map(exp => {
                         return (<li>{exp}</li>)
                     })}
-                </ul> */}
-            </div>
+            </ul>
         </div>
     );
 }
@@ -21,13 +21,15 @@ function SkillBadge(props) {
 SkillBadge.propTypes = {
     name: PropTypes.string,
     logo: PropTypes.any,
-    experiences: PropTypes.arrayOf(PropTypes.string)
+    experiences: PropTypes.arrayOf(PropTypes.string),
+    dark: PropTypes.bool
 }
 
 SkillBadge.defaultProps = {
     name: PropTypes.isRequired,
     logo: null,
     experiences: [],
+    dark: false,
 }
 
 export default SkillBadge;
