@@ -154,7 +154,8 @@ img.portfolio {
 
 video.portfolio {
   max-height: 400px;
-  max-width: 400px;
+
+  width: 400px;
   margin: 10px;
 }
 
@@ -180,7 +181,6 @@ video.portfolio {
 }
 
 img.resume {
-
   width: 100%;
   border: 5px solid #555;
 }
