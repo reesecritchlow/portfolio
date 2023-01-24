@@ -38,7 +38,11 @@ h2 {
   height: 100vh;
   width: 100vw;
   font-family: 'neue-haas-grotesk-text', Helvetica, sans-serif;
-  overflow: hidden;
+
+  background: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgb(9, 37, 121) 50%, rgb(10, 70, 81) 100%);
+  overflow-x: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .centerParent {
@@ -46,14 +50,11 @@ h2 {
   margin-right: 30px;
   max-width: 900px;
   height: 100%;
-  overflow-x: auto;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+
 }
 
-.centerParent::-webkit-scrollbar {
-  max-width: 900px;
-  height: 100%;
+.parent::-webkit-scrollbar {
+
   overflow-x: auto;
   display: none;
 }
@@ -154,7 +155,6 @@ img.portfolio {
 
 video.portfolio {
   max-height: 400px;
-
   width: 400px;
   margin: 10px;
 }

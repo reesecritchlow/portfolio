@@ -17,6 +17,15 @@ function CV() {
                 
                 <img src={resume1} class="resume" alt="resume page 1" />
                 <img src={resume2} class="resume" alt="resume page 2" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             </div>
         </div>
     );
