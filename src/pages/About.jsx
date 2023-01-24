@@ -21,6 +21,7 @@ import sqlLogo from '../media/sqlLogo.png';
 import onshapeLogo from '../media/onshapeLogo.png';
 import rosLogo from '../media/rosLogo.png';
 import nodeLogo from '../media/nodeLogoEdited.svg';
+import solderingLogo from '../media/solderingLogo.png';
 
 
 function About() {
@@ -71,6 +72,7 @@ function About() {
                             <h4>Electronics and Hardware:</h4>
                             <div class="skillContainer">
                                 <SkillBadge name={'Circuit Design and Analysis'} logo={circuitLogo} />
+                                <SkillBadge name={'Soldering'} logo={solderingLogo} />
                             </div>
                             <h4>Developing Languages and Technologies:</h4>
                             <div class="skillContainer">

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f477f66.css",
-    "main.js": "/static/js/main.e68e4d0f.js",
+    "main.css": "/static/css/main.6d08f398.css",
+    "main.js": "/static/js/main.1ecdbf44.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/robot-video_1.mp4": "/static/media/robot-video_1.7718825d136497c20f4b.mp4",
     "static/media/353circ.jpg": "/static/media/353circ.f068767e4cbdd18698fd.jpg",
@@ -21,6 +21,7 @@
     "static/media/tensorflowLogo.png": "/static/media/tensorflowLogo.42ff285e754b23972de0.png",
     "static/media/circuitLogo.png": "/static/media/circuitLogo.1f0fee33d2b6f4a5e5c3.png",
     "static/media/resume-2023-no-contact.pdf": "/static/media/resume-2023-no-contact.4726b10825443696f558.pdf",
+    "static/media/solderingLogo.png": "/static/media/solderingLogo.86e41ab49667cae66e40.png",
     "static/media/rosLogo.png": "/static/media/rosLogo.560364f02385fc2419da.png",
     "static/media/track-filter.png": "/static/media/track-filter.7492b4be4110fe480d56.png",
     "static/media/onshapeLogo.png": "/static/media/onshapeLogo.210e74491919d6a331d4.png",
@@ -31,12 +32,12 @@
     "static/media/githubLogo.svg": "/static/media/githubLogo.d51061f81f79d24af2642ad7bf20ef62.svg",
     "index.html": "/index.html",
     "static/media/htmlLogo.svg": "/static/media/htmlLogo.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.2f477f66.css.map": "/static/css/main.2f477f66.css.map",
-    "main.e68e4d0f.js.map": "/static/js/main.e68e4d0f.js.map",
+    "main.6d08f398.css.map": "/static/css/main.6d08f398.css.map",
+    "main.1ecdbf44.js.map": "/static/js/main.1ecdbf44.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f477f66.css",
-    "static/js/main.e68e4d0f.js"
+    "static/css/main.6d08f398.css",
+    "static/js/main.1ecdbf44.js"
   ]
 }

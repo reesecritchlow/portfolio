@@ -180,11 +180,12 @@ video.portfolio {
 }
 
 img.resume {
-  max-width: 100%;
+
+  width: 100%;
   border: 5px solid #555;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   img.resume {
     max-width: 80vw;
   }
