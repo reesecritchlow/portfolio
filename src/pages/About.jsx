@@ -31,7 +31,7 @@ function About() {
                 <Header pageState={'about'} />
                 <div class="imageHalf">
                         <div>
-                            <div class="imagetext">
+                            <div class="imagetext description">
                             <h3>Overview</h3>
                             <hr />
                             My name is Reese Critchlow and I'm an Engineering Physics student at the University of British Columbia.
@@ -42,23 +42,22 @@ function About() {
                             <br />
                             <h3>Skills</h3>
                             <hr />
-                            Currently, my main skills are as follows:
+
                             <br />
-                            <br />
-                            <h4>Main Programming Languages:</h4>
+                            <h4 class="centered">Main Programming Languages</h4>
                             <div class="skillContainer">
                                 <SkillBadge name={'Python'} logo={pythonLogo} /*experiences={['General Purpose Programming', 'Math and Physics', 'Machine Learning', 'Computer Vision']} */ />
                                 <SkillBadge name={'JavaScript'} logo={jsLogo} />
                                 <SkillBadge name={'Java'} logo={javaLogo} />
                                 <SkillBadge name={'C++'} logo={cppLogo} />
                             </div>
-                            <h4>Web Development:</h4>
+                            <h4 class="centered">Web Development</h4>
                             <div class="skillContainer">
                                 <SkillBadge name={'HTML'} logo={htmlLogo} />
                                 <SkillBadge name={'CSS'} logo={cssLogo} />
                                 <SkillBadge name={'HTTP'} logo={httpLogo} />
                             </div>
-                            <h4>Supporting Frameworks and Technologies:</h4>
+                            <h4 class="centered">Supporting Frameworks and Technologies</h4>
                             <div class="skillContainer">
                                 <SkillBadge name={'React'} logo={reactLogo}/>
                                 <SkillBadge name={'React Native'} logo={reactLogo} />
@@ -69,17 +68,17 @@ function About() {
                                 <SkillBadge name={'Git/GitHub'} logo={gitLogo} />
                                 <SkillBadge name={'Node.js'} logo={nodeLogo} />
                             </div>
-                            <h4>Electronics and Hardware:</h4>
+                            <h4 class="centered">Electronics and Hardware</h4>
                             <div class="skillContainer">
                                 <SkillBadge name={'Circuit Design and Analysis'} logo={circuitLogo} />
                                 <SkillBadge name={'Soldering'} logo={solderingLogo} />
                             </div>
-                            <h4>Developing Languages and Technologies:</h4>
+                            <h4 class="centered">Developing Languages and Technologies</h4>
                             <div class="skillContainer">
                                 <SkillBadge name={'MATLAB'} logo={matlabLogo} />
                                 <SkillBadge name={'Simulink'} logo={simulinkLogo} />
                                 <SkillBadge name={'SQL'} logo={sqlLogo} />
-                                <SkillBadge name={'CAD (OnShape and Solidworks)'} logo={onshapeLogo} />
+                                <SkillBadge name={'CAD (OnShape)'} logo={onshapeLogo} />
                                 <SkillBadge name={'ROS (Robot Operating System)'} logo={rosLogo} />
                             </div>
                             <h4>Skills I&apos;m Looking to Acquire:</h4>

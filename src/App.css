@@ -19,7 +19,11 @@ h4 {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 20px
+  font-size: 22px
+}
+
+h4.centered {
+
 }
 
 h2 {
@@ -180,6 +184,10 @@ video.portfolio {
   top: 20vh;
 }
 
+.description {
+  font-size: 20px;
+}
+
 img.resume {
   width: 100%;
   border: 5px solid #555;
@@ -209,7 +217,11 @@ hr.divider {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  justify-content: center;
+  margin-top: 20px;
+
 }
+
 li {
   margin-bottom: 10px;
 }
