@@ -53,7 +53,7 @@ function Homepage() {
                                     </ul>
                                 </p>
                                 <div class="simpleCenter">
-                                    <GithubButton repoLink='https://github.com/bravetechnologycoop/particle-accelerator' />
+                                    <GithubButton repoLink='https://github.com/reesecritchlow/ENPH353_Team16' />
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,10 @@ function Homepage() {
                             <img class="portfolio hidden" src={pa} alt="a website"/>
                             <section class="hidden">Screenshot of the tool</section>
                         </div>
-                        
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     </div>
             </div>
         </div>

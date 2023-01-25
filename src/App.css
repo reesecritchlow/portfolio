@@ -260,3 +260,21 @@ img.show {
   transition-delay: 100ms;
   filter: blur(0);
 }
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+  
+  .show {
+    transition: none;
+  }
+  
+  img.hidden {
+    transition: none;
+  }
+  
+  img.show {
+    transition: none;
+  }
+}

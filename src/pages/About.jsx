@@ -51,20 +51,20 @@ function About() {
 
                             <br />
                             <h4 class="centered hidden">Main Programming Languages</h4>
-                            <div class="skillContainer hidden">
+                            <div class="skillContainer">
                                 <SkillBadge name={'Python'} logo={pythonLogo} /*experiences={['General Purpose Programming', 'Math and Physics', 'Machine Learning', 'Computer Vision']} */ />
                                 <SkillBadge name={'JavaScript'} logo={jsLogo} />
                                 <SkillBadge name={'Java'} logo={javaLogo} />
                                 <SkillBadge name={'C++'} logo={cppLogo} />
                             </div>
                             <h4 class="centered hidden">Web Development</h4>
-                            <div class="skillContainer hidden">
+                            <div class="skillContainer">
                                 <SkillBadge name={'HTML'} logo={htmlLogo} />
                                 <SkillBadge name={'CSS'} logo={cssLogo} />
                                 <SkillBadge name={'HTTP'} logo={httpLogo} />
                             </div>
                             <h4 class="centered hidden">Supporting Frameworks and Technologies</h4>
-                            <div class="skillContainer hidden">
+                            <div class="skillContainer">
                                 <SkillBadge name={'React'} logo={reactLogo}/>
                                 <SkillBadge name={'React Native'} logo={reactLogo} />
                                 <SkillBadge name={'Arduino'} logo={arduinoLogo} />
@@ -75,12 +75,12 @@ function About() {
                                 <SkillBadge name={'Node.js'} logo={nodeLogo} />
                             </div>
                             <h4 class="centered hidden">Electronics and Hardware</h4>
-                            <div class="skillContainer hidden">
+                            <div class="skillContainer">
                                 <SkillBadge name={'Circuit Design and Analysis'} logo={circuitLogo} />
                                 <SkillBadge name={'Soldering'} logo={solderingLogo} />
                             </div>
                             <h4 class="centered hidden">Developing Languages and Technologies</h4>
-                            <div class="skillContainer hidden">
+                            <div class="skillContainer">
                                 <SkillBadge name={'MATLAB'} logo={matlabLogo} />
                                 <SkillBadge name={'Simulink'} logo={simulinkLogo} />
                                 <SkillBadge name={'SQL'} logo={sqlLogo} />
