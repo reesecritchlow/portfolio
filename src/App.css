@@ -57,6 +57,13 @@ h2 {
 
 }
 
+.simpleCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .parent::-webkit-scrollbar {
 
   overflow-x: auto;
@@ -224,4 +231,32 @@ hr.divider {
 
 li {
   margin-bottom: 10px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(2px);
+  transition: all 500ms;
+  transition-delay: 100ms;
+}
+
+.show {
+  opacity: 1;
+  transition: 500ms;
+  transition-delay: 100ms;
+  filter: blur(0);
+}
+
+img.hidden {
+  opacity: 0;
+  filter: blur(2px);
+  transition: all 500ms;
+  transition-delay: 100ms;
+}
+
+img.show {
+  opacity: 1;
+  transition: 500ms;
+  transition-delay: 100ms;
+  filter: blur(0);
 }

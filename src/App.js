@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css';
 import Homepage from './pages/Homepage';
 
@@ -23,7 +24,25 @@ const router = createBrowserRouter([
   }
 ]);
 
+
 function App() {
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    });
+    
+    
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el));
+  })
+
   return (
     <>
       <head>

@@ -23,7 +23,7 @@ function Homepage() {
                 <Header pageState={'portfolio'} />
                     <div class={isTabletOrMobile ? 'imageHalfMobile' : 'imageHalf'}>
                         <div>
-                            <div class="imagetext">
+                            <div class="imagetext hidden">
                             <h2>Artificial Intelligence Robot Software</h2>
                             <h4>Fall 2022</h4>
                             <hr />
@@ -52,19 +52,22 @@ function Homepage() {
                                         <li>Worked exclusively in a purpose-built Linux environment for greater control over code and software.</li>
                                     </ul>
                                 </p>
+                                <div class="simpleCenter">
+                                    <GithubButton repoLink='https://github.com/bravetechnologycoop/particle-accelerator' />
+                                </div>
                             </div>
                         </div>
                         <div class="imageStack">
-                            <img src={image353} class='portfolio' alt='robot in a ROS gazebo simulation' />
-                            Bird's Eye View of the Simulated Gazebo Environment
-                            <img src={trackFilter} class='portfolio' alt='binarized view of a road simulation' />
-                            Binarized Video Feed from the Robot for Neural Network Processing
+                            <img src={image353} class='portfolio hidden' alt='robot in a ROS gazebo simulation' />
+                            <section class="hidden">Bird's Eye View of the Simulated Gazebo Environment</section>
+                            <img src={trackFilter} class='portfolio hidden' alt='binarized view of a road simulation' />
+                            <section class="hidden">Binarized Video Feed from the Robot for Neural Network Processing</section>
                         </div>
                     </div>
                     <hr class="divider" />
                     <div class={isTabletOrMobile ? 'imageHalfMobile' : 'imageHalf'}>
                         <div>
-                            <div class="imagetext">
+                            <div class="imagetext hidden">
                             <h2>Autonomous Treasure Collecting Robot</h2>
                             <h4>Summer 2022</h4>
                             <hr />
@@ -89,23 +92,26 @@ function Homepage() {
                                         </ul>
                                     </ul>
                                 </p>
-                                <GithubButton repoLink='https://github.com/reesecritchlow/robot-summer' />
+                                <div class="simpleCenter">
+                                    <GithubButton repoLink='https://github.com/reesecritchlow/robot-summer' />
+                                </div>
+                                
                             </div>
                         </div>
                         <div class="imageStack">
-                            <video class="portfolio" loop autoPlay muted>
+                            <video class="portfolio hidden" loop autoPlay muted>
                                 <source src={video253} type="video/mp4" />
                                 Videos not supported.
                             </video>
-                            Video of the robot executing tasks on the competition surface.
-                            <img class="portfolio" src={circuit253} alt="circuits"/>
-                            Finished infrared signal processing filter.
+                            <section class="hidden">Video of the robot executing tasks on the competition surface.</section>
+                            <img class="portfolio hidden" src={circuit253} alt="circuits"/>
+                            <section class="hidden">Finished infrared signal processing filter.</section>
                         </div>
                     </div>
                     <hr class="divider" />
                     <div class={isTabletOrMobile ? 'imageHalfMobile' : 'imageHalf'}>
                         <div>
-                            <div class="imagetext">
+                            <div class="imagetext hidden">
                             <h2>Internal Product Management Tool</h2>
                             <h4>Spring 2022</h4>
                             <hr />
@@ -138,14 +144,19 @@ function Homepage() {
                                         <li>Documented code and implemented a roadmap for future developers to continue the project after my time at the company.</li>
                                     </ul>
                                 </p>
+                                <div class="simpleCenter">
+                                    <GithubButton repoLink='https://github.com/bravetechnologycoop/particle-accelerator' />
+                                </div>
                                 <br />
                                 <br />
                                 <br />
                             </div>
                         </div>
                         <div class="imageStack">
-                            <img class="portfolio" src={pa} alt="a website"/>
+                            <img class="portfolio hidden" src={pa} alt="a website"/>
+                            <section class="hidden">Screenshot of the tool</section>
                         </div>
+                        
                     </div>
             </div>
         </div>

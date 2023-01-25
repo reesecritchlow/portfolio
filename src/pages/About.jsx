@@ -25,6 +25,9 @@ import solderingLogo from '../media/solderingLogo.png';
 
 
 function About() {
+
+    
+
     return (
         <div class="parent">
             <div class="centerParent">
@@ -32,6 +35,7 @@ function About() {
                 <div class="imageHalf">
                         <div>
                             <div class="imagetext description">
+                            <section class="hidden">
                             <h3>Overview</h3>
                             <hr />
                             My name is Reese Critchlow and I'm an Engineering Physics student at the University of British Columbia.
@@ -40,25 +44,27 @@ function About() {
                             opportunities for Summer and Fall 2023.
                             <br />
                             <br />
+                            </section>
+                            
                             <h3>Skills</h3>
                             <hr />
 
                             <br />
-                            <h4 class="centered">Main Programming Languages</h4>
-                            <div class="skillContainer">
+                            <h4 class="centered hidden">Main Programming Languages</h4>
+                            <div class="skillContainer hidden">
                                 <SkillBadge name={'Python'} logo={pythonLogo} /*experiences={['General Purpose Programming', 'Math and Physics', 'Machine Learning', 'Computer Vision']} */ />
                                 <SkillBadge name={'JavaScript'} logo={jsLogo} />
                                 <SkillBadge name={'Java'} logo={javaLogo} />
                                 <SkillBadge name={'C++'} logo={cppLogo} />
                             </div>
-                            <h4 class="centered">Web Development</h4>
-                            <div class="skillContainer">
+                            <h4 class="centered hidden">Web Development</h4>
+                            <div class="skillContainer hidden">
                                 <SkillBadge name={'HTML'} logo={htmlLogo} />
                                 <SkillBadge name={'CSS'} logo={cssLogo} />
                                 <SkillBadge name={'HTTP'} logo={httpLogo} />
                             </div>
-                            <h4 class="centered">Supporting Frameworks and Technologies</h4>
-                            <div class="skillContainer">
+                            <h4 class="centered hidden">Supporting Frameworks and Technologies</h4>
+                            <div class="skillContainer hidden">
                                 <SkillBadge name={'React'} logo={reactLogo}/>
                                 <SkillBadge name={'React Native'} logo={reactLogo} />
                                 <SkillBadge name={'Arduino'} logo={arduinoLogo} />
@@ -68,25 +74,30 @@ function About() {
                                 <SkillBadge name={'Git/GitHub'} logo={gitLogo} />
                                 <SkillBadge name={'Node.js'} logo={nodeLogo} />
                             </div>
-                            <h4 class="centered">Electronics and Hardware</h4>
-                            <div class="skillContainer">
+                            <h4 class="centered hidden">Electronics and Hardware</h4>
+                            <div class="skillContainer hidden">
                                 <SkillBadge name={'Circuit Design and Analysis'} logo={circuitLogo} />
                                 <SkillBadge name={'Soldering'} logo={solderingLogo} />
                             </div>
-                            <h4 class="centered">Developing Languages and Technologies</h4>
-                            <div class="skillContainer">
+                            <h4 class="centered hidden">Developing Languages and Technologies</h4>
+                            <div class="skillContainer hidden">
                                 <SkillBadge name={'MATLAB'} logo={matlabLogo} />
                                 <SkillBadge name={'Simulink'} logo={simulinkLogo} />
                                 <SkillBadge name={'SQL'} logo={sqlLogo} />
                                 <SkillBadge name={'CAD (OnShape)'} logo={onshapeLogo} />
                                 <SkillBadge name={'ROS (Robot Operating System)'} logo={rosLogo} />
                             </div>
+
+                            <section class="hidden">
                             <h4>Skills I&apos;m Looking to Acquire:</h4>
                             <ul>
                                 <li>PCB Design and Development</li>
                             </ul>
 
+                            </section>
+
                             <br />
+                            <section class="hidden">
                             <h3>Technical Experience</h3>
                             <hr />
                             Some contexts and projects that I have employed my skills are:
@@ -101,6 +112,9 @@ function About() {
                             More information on each of these projects can be found in my <a href="/portfolio" class="nostyle" >portfolio</a>.
                             <br />
                             <br />
+                            </section>
+                            <section class="hidden">
+
                             <h3>Other Life Experiences</h3>
                             <hr />
                             I believe that aside from my technical experiences and my education, my non-technical experiences set me apart from others.
@@ -113,6 +127,7 @@ function About() {
                                 <li>Novice Team Member, UBC Rowing Team</li>
                                 <li>Lifeguard and Swim Instructor, Vancouver Parks Board</li>
                             </ul>
+                            </section>
                             <br />
                             <br />
                             <br />
