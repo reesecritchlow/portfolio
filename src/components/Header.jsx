@@ -1,6 +1,8 @@
 import '../App.css';
 import PropTypes from 'prop-types';
 import { useMediaQuery } from 'react-responsive';
+import github from '../media/github-mark.svg';
+import linkedin from '../media/linkedin.svg';
 
 function Header(props) {
     const { pageState } = props;
@@ -43,11 +45,16 @@ function Header(props) {
                     Reese <br /> Critchlow
                 </div>
                 <div>
-                    <div class="pageSubtitle">
-                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">linkedin</a>
+                    <div>
+                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">
+                            <img class="logoLink" src={linkedin} alt="linkedin logo" />
+                        </a>
                     </div>
-                    <div class="pageSubtitle">
-                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://github.com/reesecritchlow">github</a>
+
+                    <div>
+                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://github.com/reesecritchlow">
+                            <img class="logoLink" src={github} alt="github logo" />
+                        </a>
                     </div>
                 </div>
             </div>

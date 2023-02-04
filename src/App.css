@@ -288,8 +288,21 @@ img.qrcode {
 
 img.qrcodeMobile {
   max-width: 80vw;
+
 }
 
 img.logoLink {
-  height: 10px;
+  height: 50px;
+  -webkit-filter: brightness(100%);
+  margin: 10px;
+  padding-right: 80px;
+}
+
+img.logoLink:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
