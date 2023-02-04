@@ -289,3 +289,7 @@ img.qrcode {
 img.qrcodeMobile {
   max-width: 80vw;
 }
+
+img.logoLink {
+  height: 10px;
+}
