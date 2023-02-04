@@ -105,12 +105,13 @@ h2 {
   align-items: center;
   font-size: x-large;
   padding-bottom: 30px;
-  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 a.nostyle:link {
   text-decoration: inherit;
   color: inherit;
+  text-align: center;
 }
 
 a.nostyle:visited {
@@ -298,6 +299,13 @@ img.logoLink {
   padding-right: 80px;
 }
 
+img.logolinkMobile {
+  height: 50px;
+  -webkit-filter: brightness(100%);
+
+
+}
+
 img.logoLink:hover {
   -webkit-filter: brightness(70%);
   -webkit-transition: all 200ms ease;
@@ -305,4 +313,9 @@ img.logoLink:hover {
   -o-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
   transition: all 200ms ease;
+}
+
+.linkbar {
+  margin-right: 30px;
+  margin-left: 30px;
 }

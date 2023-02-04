@@ -27,12 +27,18 @@ function Header(props) {
                     <div>
                         <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href="/cv">cv</a>
                     </div>
-                    <div>
-                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">linkedin</a>
-                    </div>
-                    <div>
-                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://github.com/reesecritchlow">github</a>
-                    </div>
+
+                </div>
+                <div class="menubar">
+                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">
+                            <img class="logolinkMobile" src={linkedin} alt="linkedin logo" />
+                        </a>
+
+
+                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://github.com/reesecritchlow">
+                            <img class="logolinkMobile" src={github} alt="github logo" />
+                        </a>
+
                 </div>
             </>
         );
