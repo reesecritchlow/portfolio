@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import CV from './pages/CV';
 import About from './pages/About';
+import QRCode from './pages/QRCode';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <About />
+  },
+  {
+    path: "/qr",
+    element: <QRCode />
   }
 ]);
 

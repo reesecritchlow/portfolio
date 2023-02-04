@@ -5,7 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 function Header(props) {
     const { pageState } = props;
 
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 600px)' });
 
     if (isTabletOrMobile) {
         return (
@@ -28,6 +28,9 @@ function Header(props) {
                     <div>
                         <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">linkedin</a>
                     </div>
+                    <div>
+                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://github.com/reesecritchlow">github</a>
+                    </div>
                 </div>
             </>
         );
@@ -39,8 +42,13 @@ function Header(props) {
                 <div class="pageTitle">
                     Reese <br /> Critchlow
                 </div>
-                <div class="pageSubtitle">
-                    <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">linkedin</a>
+                <div>
+                    <div class="pageSubtitle">
+                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reesecritchlow/">linkedin</a>
+                    </div>
+                    <div class="pageSubtitle">
+                        <a class="nostyle" target="_blank" rel="noopener noreferrer" href="https://github.com/reesecritchlow">github</a>
+                    </div>
                 </div>
             </div>
             <div class="menubar">

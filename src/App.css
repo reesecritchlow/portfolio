@@ -93,7 +93,9 @@ h2 {
   font-style: normal;
   font-size: 25px;
   margin: 10px;
-  margin-right: 50px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  text-align: right;
 }
 
 .menubar {
@@ -118,7 +120,7 @@ a.nostyle:visited {
 }
 
 a.nostyle:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 a.underline:link {
@@ -277,4 +279,13 @@ img.show {
   img.show {
     transition: none;
   }
+}
+
+img.qrcode {
+  max-width: 40vw;
+  max-height: 40vw;
+}
+
+img.qrcodeMobile {
+  max-width: 80vw;
 }

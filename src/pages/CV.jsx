@@ -1,8 +1,8 @@
 import '../App.css';
 import Header from '../components/Header.jsx';
 
-import resume1 from '../media/resume-2023-nc.jpg';
-import resume2 from '../media/resume-2023-nc2.jpg';
+import resume1 from '../media/electrical-resume-nc.png';
+import resume2 from '../media/electrical-resume-nc2.png';
 import resumePDF from '../media/resume-2023-no-contact.pdf';
 
 
