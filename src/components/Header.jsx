@@ -25,7 +25,7 @@ function Header(props) {
                         <a class={pageState === 'portfolio' ? 'underline' : 'nostyle'} href="/portfolio">portfolio</a> 
                     </div>
                     <div>
-                        <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href="/cv">cv</a>
+                        <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href="/cv">cv/contact</a>
                     </div>
 
                 </div>
@@ -72,7 +72,7 @@ function Header(props) {
                     <a class={pageState === 'portfolio' ? 'underline' : 'nostyle'} href="/portfolio">portfolio</a> 
                 </div>
                 <div>
-                    <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href="/cv">cv</a>
+                    <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href="/cv">cv/contact</a>
                 </div>
             </div>
         </>
