@@ -13,7 +13,7 @@ function CV() {
                 <Header pageState={'cv'} />
                 <div class="simpleCenter">
                     <h4> 
-                    email: <a class="nostyle" href='reesecritchlow@gmail.com'>reesecritchlow@gmail.com</a>
+                    email: <a class="nostyle" href='mailto: reesecritchlow@gmail.com'>reesecritchlow@gmail.com</a>
                     </h4>
                 </div>
                 <div class="download">

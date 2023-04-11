@@ -41,7 +41,7 @@ function About() {
                             My name is Reese Critchlow and I'm an Engineering Physics student at the University of British Columbia.
                             My studies and career are currently focused on software and electrical engineering, with special interests
                             in biomedical technologies, clean energy technology, robotics, and machine learning. I'm currently seeking co-op employment
-                            opportunities for Summer and Fall 2023.
+                            opportunities for Fall 2023.
                             <br />
                             <br />
                             </section>
