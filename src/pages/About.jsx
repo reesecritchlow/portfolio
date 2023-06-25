@@ -22,7 +22,7 @@ import onshapeLogo from '../media/onshapeLogo.png';
 import rosLogo from '../media/rosLogo.png';
 import nodeLogo from '../media/nodeLogoEdited.svg';
 import solderingLogo from '../media/solderingLogo.png';
-
+import lispLogo from '../media/lispLogo.svg';
 
 function About() {
 
@@ -52,10 +52,11 @@ function About() {
                             <br />
                             <h4 class="centered hidden">Main Programming Languages</h4>
                             <div class="skillContainer">
-                                <SkillBadge name={'Python'} logo={pythonLogo} /*experiences={['General Purpose Programming', 'Math and Physics', 'Machine Learning', 'Computer Vision']} */ />
-                                <SkillBadge name={'JavaScript'} logo={jsLogo} />
-                                <SkillBadge name={'Java'} logo={javaLogo} />
-                                <SkillBadge name={'C++'} logo={cppLogo} />
+                              <SkillBadge name={'Python'} logo={pythonLogo} /*experiences={['General Purpose Programming', 'Math and Physics', 'Machine Learning', 'Computer Vision']} */ />
+                              <SkillBadge name={'JavaScript'} logo={jsLogo} />
+                              <SkillBadge name={'Java'} logo={javaLogo} />
+                              <SkillBadge name={'C++'} logo={cppLogo} />
+                              <SkillBadge name={'Common Lisp'} logo={lispLogo}/>
                             </div>
                             <h4 class="centered hidden">Web Development</h4>
                             <div class="skillContainer">
