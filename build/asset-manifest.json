@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b62c47.css",
-    "main.js": "/static/js/main.03d00af0.js",
+    "main.css": "/static/css/main.9c21b433.css",
+    "main.js": "/static/js/main.3b7eb987.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/robot-video_1.mp4": "/static/media/robot-video_1.7718825d136497c20f4b.mp4",
     "static/media/353circ.jpg": "/static/media/353circ.f068767e4cbdd18698fd.jpg",
     "static/media/353robot.png": "/static/media/353robot.3a313036eba1218524cc.png",
     "static/media/linuxLogo.png": "/static/media/linuxLogo.9183a73b387aa8454b1e.png",
-    "static/media/electrical-resume-nc.png": "/static/media/electrical-resume-nc.a4d24e93a502c1d73a29.png",
-    "static/media/electrical-resume-nc2.png": "/static/media/electrical-resume-nc2.392394a090d39ab57f21.png",
+    "static/media/electrical-resume-nc.png": "/static/media/electrical-resume-nc.97152fe73e6b821cdcda.png",
+    "static/media/electrical-resume-nc2.png": "/static/media/electrical-resume-nc2.2f95565e28972b7c64ff.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.81ed438b18e24116794d.png",
     "static/media/python.png": "/static/media/python.dea924d737bb84eb9ce3.png",
     "static/media/arduinoLogo.png": "/static/media/arduinoLogo.51319eb1c9d57bd3dd28.png",
@@ -20,8 +20,8 @@
     "static/media/brave-pa.png": "/static/media/brave-pa.f085a5c051482b607525.png",
     "static/media/tensorflowLogo.png": "/static/media/tensorflowLogo.42ff285e754b23972de0.png",
     "static/media/circuitLogo.png": "/static/media/circuitLogo.1f0fee33d2b6f4a5e5c3.png",
-    "static/media/resume-2023-no-contact.pdf": "/static/media/resume-2023-no-contact.4726b10825443696f558.pdf",
     "static/media/qr-code.svg": "/static/media/qr-code.24a2779830bd9835acdf9b44a2ee0513.svg",
+    "static/media/electrical-resume-nc.pdf": "/static/media/electrical-resume-nc.a908df9d8f0cc227ce2d.pdf",
     "static/media/solderingLogo.png": "/static/media/solderingLogo.86e41ab49667cae66e40.png",
     "static/media/rosLogo.png": "/static/media/rosLogo.560364f02385fc2419da.png",
     "static/media/track-filter.png": "/static/media/track-filter.7492b4be4110fe480d56.png",
@@ -32,15 +32,16 @@
     "static/media/nodeLogoEdited.svg": "/static/media/nodeLogoEdited.91b8e1e71ef82bc11e5b273c5d7cc5b7.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.ad358a8773b7a7a0fc68f59fcc4f2999.svg",
     "static/media/github-mark.svg": "/static/media/github-mark.c2d637802c3b37f34c513efcf4c68e62.svg",
+    "static/media/lispLogo.svg": "/static/media/lispLogo.ca26195c36b385e1a89c98e3d527d6e7.svg",
     "static/media/githubLogo.svg": "/static/media/githubLogo.d51061f81f79d24af2642ad7bf20ef62.svg",
     "index.html": "/index.html",
     "static/media/htmlLogo.svg": "/static/media/htmlLogo.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.d1b62c47.css.map": "/static/css/main.d1b62c47.css.map",
-    "main.03d00af0.js.map": "/static/js/main.03d00af0.js.map",
+    "main.9c21b433.css.map": "/static/css/main.9c21b433.css.map",
+    "main.3b7eb987.js.map": "/static/js/main.3b7eb987.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1b62c47.css",
-    "static/js/main.03d00af0.js"
+    "static/css/main.9c21b433.css",
+    "static/js/main.3b7eb987.js"
   ]
 }
