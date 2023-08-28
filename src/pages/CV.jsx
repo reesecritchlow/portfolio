@@ -8,20 +8,20 @@ import resumePDF from '../media/electrical-resume-nc.pdf';
 
 function CV() {
     return (
-        <div class="parent">
-            <div class="centerParent">
+        <div className="parent">
+            <div className="centerParent">
                 <Header pageState={'cv'} />
-                <div class="simpleCenter">
+                <div className="simpleCenter">
                     <h4> 
-                    email: <a class="nostyle" href='mailto: reesecritchlow@gmail.com'>reesecritchlow@gmail.com</a>
+                    email: <a className="nostyle" href='mailto: reesecritchlow@gmail.com'>reesecritchlow@gmail.com</a>
                     </h4>
                 </div>
-                <div class="download">
-                    <a href={resumePDF} class="nostyle" target="_blank" rel="noopener noreferrer">pdf</a>
+                <div className="download">
+                    <a href={resumePDF} className="nostyle" target="_blank" rel="noopener noreferrer">pdf</a>
                 </div>
                 <div>
-                    <img src={resume1} class="resume" alt="resume page 1" />
-                    <img src={resume2} class="resume" alt="resume page 2" />
+                    <img src={resume1} className="resume" alt="resume page 1" />
+                    <img src={resume2} className="resume" alt="resume page 2" />
                 </div>
             <br />
             <br />
