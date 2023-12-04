@@ -23,6 +23,7 @@ import rosLogo from '../media/rosLogo.png';
 import nodeLogo from '../media/nodeLogoEdited.svg';
 import solderingLogo from '../media/solderingLogo.png';
 import lispLogo from '../media/lispLogo.svg';
+import jenkinsLogo from '../media/jenkins-logo.png';
 
 function About() {
 
@@ -36,10 +37,10 @@ function About() {
                             <section className="hidden">
                             <h3>Overview</h3>
                             <hr />
-                            My name is Reese Critchlow and I'm an Engineering Physics student at the University of British Columbia.
-                            My studies and career are currently focused on software and electrical engineering, with special interests
-                            in biomedical technologies, clean energy technology, robotics, and machine learning. I'm currently seeking co-op employment
-                            opportunities for Fall 2023.
+                              My name is Reese Critchlow and I'm an Engineering Physics student at the University of British Columbia.
+                              My studies and career are currently focused on software, hardware, and electrical engineering, with special interests
+                              in biomedical technology, clean energy, robotics, and machine learning. I'm currently seeking co-op employment
+                              opportunities for Summer 2024.
                             <br />
                             <br />
                             </section>
@@ -64,27 +65,28 @@ function About() {
                             </div>
                             <h4 className="centered hidden">Supporting Frameworks and Technologies</h4>
                             <div className="skillContainer">
-                                <SkillBadge name={'React'} logo={reactLogo}/>
-                                <SkillBadge name={'React Native'} logo={reactLogo} />
-                                <SkillBadge name={'Arduino'} logo={arduinoLogo} />
-                                <SkillBadge name={'TensorFlow'} logo={tensorflowLogo} />
-                                <SkillBadge name={'OpenCV'} logo={opencvLogo} />
-                                <SkillBadge name={'Linux/Unix'} logo={linuxLogo} />
-                                <SkillBadge name={'Git/GitHub'} logo={gitLogo} />
-                                <SkillBadge name={'Node.js'} logo={nodeLogo} />
+                              <SkillBadge name={'React'} logo={reactLogo}/>
+                              <SkillBadge name={'React Native'} logo={reactLogo} />
+                              <SkillBadge name={'Arduino/Embedded Development'} logo={arduinoLogo} />
+                              <SkillBadge name={'Linux/Unix'} logo={linuxLogo} />
+                              <SkillBadge name={'Git'} logo={gitLogo} />
+                              <SkillBadge name={'Node.js'} logo={nodeLogo} />
+                              <SkillBadge name={'Jenkins'} logo={jenkinsLogo}/>
                             </div>
                             <h4 className="centered hidden">Electronics and Hardware</h4>
                             <div className="skillContainer">
-                                <SkillBadge name={'Circuit Design and Analysis'} logo={circuitLogo} />
-                                <SkillBadge name={'Soldering'} logo={solderingLogo} />
+                              <SkillBadge name={'CAD (OnShape)'} logo={onshapeLogo} />
+                              <SkillBadge name={'Circuit Design and Analysis'} logo={circuitLogo} />
+                              <SkillBadge name={'Soldering'} logo={solderingLogo} />
                             </div>
                             <h4 className="centered hidden">Developing Languages and Technologies</h4>
                             <div className="skillContainer">
-                                <SkillBadge name={'MATLAB'} logo={matlabLogo} />
-                                <SkillBadge name={'Simulink'} logo={simulinkLogo} />
-                                <SkillBadge name={'SQL'} logo={sqlLogo} />
-                                <SkillBadge name={'CAD (OnShape)'} logo={onshapeLogo} />
-                                <SkillBadge name={'ROS (Robot Operating System)'} logo={rosLogo} />
+                              <SkillBadge name={'MATLAB'} logo={matlabLogo} />
+                              <SkillBadge name={'Simulink'} logo={simulinkLogo} />
+                              <SkillBadge name={'TensorFlow'} logo={tensorflowLogo} />
+                              <SkillBadge name={'SQL'} logo={sqlLogo} />
+                              <SkillBadge name={'OpenCV'} logo={opencvLogo} />
+                              <SkillBadge name={'ROS (Robot Operating System)'} logo={rosLogo} />
                             </div>
 
                             <section className="hidden">
@@ -102,13 +104,15 @@ function About() {
                             Some contexts and projects that I have employed my skills are:
                             <br />
                             <br />
-                            <ul>
+                              <ul>
+                                <li><b>Electrical Design, Mechanical Design, Embedded Development, and Research</b> Currently working in the Molecular Mechatronics Lab at UBC in partnership with Honda to design novel soft sensors for humanoid robotics. (Employment, Fall 2023)</li>
+                                <li><b>Backend Software Development, Testing Infrastructure</b>: Worked in the processor development software team at D-Wave systems to work on the backend infrastucutre of D-Wave's quantum computing stack. (Employment, Summer 2023)</li>
                                 <li><b>Robotics, Software Development, Electronics, Fabrication: </b> Building an Autonomous Treasure Collecting Robot (Project Work, Summer 2022)</li>
                                 <li><b>Robotics, Software Development:</b> Developing software in Python alongside TensorFlow and OpenCV to control a simulated robot (Project Work, Fall 2022)</li>
                                 <li><b>Full-Stack Software Development:</b> Worked as a software developer to build a comprehensive web app in React (Employment, Spring 2022)</li>
                             </ul>
                             <br />
-                            More information on each of these projects can be found in my <a href="/portfolio" className="nostyle" >portfolio</a>.
+                            More information on these projects can be found in my <a href="/portfolio" className="nostyle" >portfolio</a>.
                             <br />
                             <br />
                             </section>
@@ -134,9 +138,7 @@ function About() {
                             <br />
                             <br />
                             <br />
-
                             </div>
-                            
                         </div>
                     </div>
             </div>

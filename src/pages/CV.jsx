@@ -17,7 +17,7 @@ function CV() {
                     </h4>
                 </div>
                 <div className="download">
-                    <a href={resumePDF} className="nostyle" target="_blank" rel="noopener noreferrer">pdf</a>
+                  <a href={resumePDF} className="nostyle" target="_blank" rel="noopener noreferrer">pdf</a>
                 </div>
                 <div>
                     <img src={resume1} className="resume" alt="resume page 1" />

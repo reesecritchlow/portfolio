@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useMediaQuery } from 'react-responsive';
 import github from '../media/github-mark.svg';
 import linkedin from '../media/linkedin.svg';
+import resume from '../media/resume.pdf';
 
 function Header(props) {
     const { pageState } = props;
@@ -72,7 +73,7 @@ function Header(props) {
                     <a class={pageState === 'portfolio' ? 'underline' : 'nostyle'} href="/portfolio">portfolio</a> 
                 </div>
                 <div>
-                    <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href="/cv">cv/contact</a>
+                  <a class={pageState === 'cv' ? 'underline' : 'nostyle'} href={resume} target="_blank">resume</a>
                 </div>
             </div>
         </>
