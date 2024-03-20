@@ -3,7 +3,7 @@ import Header from '../components/Header.jsx';
 
 import resume1 from '../media/electrical-resume-nc.png';
 import resume2 from '../media/electrical-resume-nc2.png';
-import resumePDF from '../media/electrical-resume-nc.pdf';
+import resumePDF from '../media/Reese_Critchlow_Resume.pdf';
 
 
 function CV() {

@@ -105,14 +105,14 @@ function About() {
                             <br />
                             <br />
                               <ul>
-                                <li><b>Electrical Design, Mechanical Design, Embedded Development, and Research</b> Currently working in the Molecular Mechatronics Lab at UBC in partnership with Honda to design novel soft sensors for humanoid robotics. (Employment, Fall 2023)</li>
+                                <li><b>Electrical Design, Mechanical Design, Embedded Development, and Research</b> Worked in the Molecular Mechatronics Lab at UBC in partnership with Honda to design novel soft sensors for humanoid robotics. (Employment, Fall 2023)</li>
                                 <li><b>Backend Software Development, Testing Infrastructure</b>: Worked in the processor development software team at D-Wave systems to work on the backend infrastucutre of D-Wave's quantum computing stack. (Employment, Summer 2023)</li>
                                 <li><b>Robotics, Software Development, Electronics, Fabrication: </b> Building an Autonomous Treasure Collecting Robot (Project Work, Summer 2022)</li>
                                 <li><b>Robotics, Software Development:</b> Developing software in Python alongside TensorFlow and OpenCV to control a simulated robot (Project Work, Fall 2022)</li>
                                 <li><b>Full-Stack Software Development:</b> Worked as a software developer to build a comprehensive web app in React (Employment, Spring 2022)</li>
                             </ul>
                             <br />
-                            More information on these projects can be found in my <a href="/portfolio" className="nostyle" >portfolio</a>.
+                            More information on selected projects can be found in my <a href="/portfolio" className="nostyle" >portfolio</a>.
                             <br />
                             <br />
                             </section>
